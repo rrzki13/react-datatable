@@ -1,0 +1,36 @@
+.bg-proccess {
+    background-color: #F4F8FB !important;
+}
+
+.datatable-lte thead tr th {
+    cursor: pointer;
+    min-width: 15%;
+    user-select: none;
+}
+
+.datatable-lte thead tr th.order-asc .ascending {
+    color: #333;
+}
+
+.datatable-lte thead tr th.order-desc .descending {
+    color: #333;
+}
+
+.datatable-lte thead tr th .descending, .datatable-lte thead tr th .ascending {
+    color: rgb(218, 217, 217);
+}
+
+/* .datatable-lte thead tr th::before, .datatable-lte thead tr th::after {
+    display: block;
+    position: absolute;
+}
+
+.datatable-lte thead tr th::after {
+    content: "\2193";
+    right: .5em;
+}
+
+.datatable-lte thead tr th::before {
+    content: "\2191";
+    right: 1em;
+} */
